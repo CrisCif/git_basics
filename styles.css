@@ -3,7 +3,8 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #9197AE;
+  /*background-image: url(https://previews.123rf.com/images/peshkova/peshkova1710/peshkova171000956/88750640-fondo-de-pantalla-de-negocio-digital-creativo-concepto-de-tecnolog%C3%ADa-innovaci%C3%B3n-y-finanzas.jpg);*/
+  background-image: url(https://st3.depositphotos.com/1010652/14828/v/450/depositphotos_148283555-stock-illustration-video-game-seamless-background.jpg);
   color: #333;
 }
 
@@ -182,14 +183,27 @@ li i {
   transform: scale(1.1); /* Escalamos el tamaño en un 10% cuando el mouse pasa sobre el encabezado */
 }
 
-#Moto{
-  max-width: 50%;
+.hobbies ul {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#Cross{
-  max-width: 50%;
+.hobbies li {
+  margin-right: 20px; /* Espacio entre los elementos */
+  display: flex;
+  align-items: center;
+
 }
 
-#Fight{
-  max-width: 50%;
+#Moto,
+#Cross,
+#Fight {
+  max-width: 50px; /* Ajusta el ancho máximo de las imágenes según sea necesario */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.cv-image {
+  width: 100px; /* ajusta el ancho según el tamaño de la imagen */
+  height: auto; /* para mantener la proporción */
+  margin-right: 20px; /* espacio entre la imagen y el texto */
 }
